@@ -1,0 +1,30 @@
+form {
+  margin: 1em;
+}
+
+.survey-title {
+  background-color: #5088d1;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.form-title {
+  margin: 1em;
+  font-size: larger;
+}
+
+.progress {
+  margin: 1em;
+}
+
+.progress ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination {
+  margin: 1em;
+  font-size: smaller;
+}

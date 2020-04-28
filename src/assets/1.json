@@ -1,0 +1,88 @@
+{
+  "title": "form title",
+  "pages": [
+    {
+      "name": "page 1",
+      "elements": [
+        {
+          "type": "text",
+          "name": "fieldName",
+          "title": "Text field (name)",
+          "description": "with field description 🏴‍☠️",
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "fieldEmail",
+          "title": "Text field (email)",
+          "inputType": "email",
+          "isRequired": true,
+          "validators": [
+            {
+              "type": "email"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "fieldCheckbox",
+          "title": "Checkbox field",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "1",
+              "text": "value 1",
+              "score": 2
+            },
+            {
+              "value": "2",
+              "text": "value 2",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "fieldRadiogroup",
+          "title": "Radiogroup field",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "1",
+              "text": "value 1",
+              "score": 1
+            },
+            {
+              "value": "2",
+              "text": "value 2",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "page 2",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "fieldRadiogroup2",
+          "title": "Other fiels",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "1",
+              "text": "value 1",
+              "score": 1
+            },
+            {
+              "value": "2",
+              "text": "value 2",
+              "score": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

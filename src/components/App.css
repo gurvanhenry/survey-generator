@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  justify-content: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.container {
+  width: 800px;
+  border: solid lightgray 1px;
+  background-color: #f8f7f7;
+}
